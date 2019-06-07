@@ -13,12 +13,13 @@
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... } */
 
-header {
+.nav  {
     background-color: rgba(255, 200, 171, 0.5);
     display: flex;
-    justify-content: space-around
+    justify-content: space-evenly;
 }
 
+    
 footer {
     position: fixed;
     bottom: 0;
