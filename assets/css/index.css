@@ -1,0 +1,19 @@
+#jumbotron {
+    line-height: 2em;
+    background-color: rgba(132, 154, 191, 0.7);
+    font-weight: bold;
+    width: 100%;
+    padding: 10px 40px 10px 40px;
+    border-radius: 0;
+    
+}
+
+#center {
+    text-align: center;
+    font-size: 200
+}
+#img-thumbnail {
+    height:250px;
+    width: 250px;
+    float: left;
+    margin-right: 20px;

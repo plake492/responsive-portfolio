@@ -1,0 +1,11 @@
+
+.container {
+  
+    padding-left: 45px;
+    padding-right: 45px;
+    line-height: 2em;
+    background-color: rgba(132, 154, 191, 0.7);
+    font-weight: bold;
+    width: 100%;
+    text-align: center
+}
