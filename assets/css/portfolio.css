@@ -1,6 +1,5 @@
 
 .container {
-  
     padding-left: 45px;
     padding-right: 45px;
     line-height: 2em;
@@ -8,4 +7,24 @@
     font-weight: bold;
     width: 100%;
     text-align: center
+}
+
+img {
+    margin: 10px 0 10px 0;
+    box-sizing: border-box;
+}
+
+a {
+    position: relative;
+
+}
+
+.pictext {
+    position: absolute;
+    bottom: -80px;
+    left:50%;
+    transform: translate(-50%, 0);
+    background-color:rgba(132, 154, 191, 0.7);
+    width: 100%
+
 }

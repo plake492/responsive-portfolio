@@ -18,11 +18,11 @@
     display: flex;
     justify-content: space-evenly;
 }
-
     
 footer {
     position: fixed;
     bottom: 0;
+    margin-top: 20px;
     background-color: rgba(129, 151, 188, 0.5) ;
     width:100%;
     text-align: center;
