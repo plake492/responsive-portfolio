@@ -1,7 +1,11 @@
+body {
+    padding-bottom: 50px
+}
 .nav  {
     background-color: rgba(255, 200, 171, 0.5);
     display: flex;
     justify-content: space-evenly;
+
 }
     
 footer {
@@ -20,4 +24,9 @@ h3 {
 #nav {
     margin-left:20px;
     width: 100%;
+}
+.container {
+    min-height:100%;
+    position:relative;
+    height:100%;
 }
