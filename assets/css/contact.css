@@ -1,0 +1,20 @@
+.container {
+    padding: 20px 45px 50px 45px;
+    line-height: 2em;
+    background-color: rgba(132, 154, 191, 0.7);
+    font-weight: bold;
+    width: 100%;
+    text-align: center
+}
+
+textarea.form-control {
+    height: 250px;
+}
+
+#button {
+    margin-top: 30px;
+}
+
+#top {
+    text-align: right
+}

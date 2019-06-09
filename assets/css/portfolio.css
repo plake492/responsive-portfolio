@@ -28,3 +28,8 @@ a {
     width: 100%
 
 }
+
+#nav {
+    position: absolute;
+    right: 280px;
+}
