@@ -1,3 +1,7 @@
+/* * {
+    box-sizing: border-box;
+} */
+
 body {
     font-family: 'Cantarell', sans-serif;
     padding: 0;
@@ -8,21 +12,20 @@ header {
     position: relative;
     width: 100%;
     height: 60px;
-    margin-bottom:75px
 
 }
 .head-name {
     background-color: rgb(92, 111, 118, 0.8);
     position: absolute;
     font-size: 40px;
-    left:100px;
+    left:200px;
     top:20px;
 }
 nav {
     display: inline-flex;
     background-color: rgb(92, 111, 118, 0.8);
     position: absolute;
-    right:100px;
+    right:200px;
     top:24px;
     width: fit-content;
     text-align: center;
@@ -42,13 +45,33 @@ nav {
         a {
             display: inline;
         }
+aside {
+    display: inline-flex;
+    flex-direction: column;
+    background-color: rgb(92, 111, 118, 0.8);
+    width: fit-content;
+    text-align: center;
+    padding: 10px;
+    visibility: hidden;
+    margin-bottom:75px;
+    width: 100%
+}
 
+.button:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  a {
+      padding: 10px 0 10px 0;
+  }
 
 
 
 .p {
+    box-sizing: content-box;
     background-color: rgb(92, 111, 118, 0.8);
-    margin: 0 100px 0 100px;
+    margin: 0 200px 0 200px;
     padding: 40px 20px 40px 20px;
     line-height: 2;
 }
@@ -79,16 +102,66 @@ footer {
 }
 
 
+/* Medium devices (desktops, 992px and up) */
+@media screen and (max-width:992px) {  
+    header {
+        background-color: rgb(23, 123, 155, );
+        position: relative;
+        width: 100%;
+        height: 60px;
+}
+.head-name{
+    left: unset
+}
+nav {   
+    right: 0
+}
+
 
 /* Small devices (tablets, 768px and up) */
 @media screen and (max-width:768px) {  
-header {
-    background-color: brown;
+    header {
+        background-color: rgb(23, 123, 155, );
+        position: relative;
+        width: 100%;
+        height: 60px;
+        left: auto;
+        right: auto;
 }
+.head-name{
+    text-align: center;
+    position: unset;
+    /* right: 50%;
+    transform: translate(-50%, 0) */
+}
+nav {   
+    flex-direction: column;
+    visibility: hidden;
 }
 
-/* Medium devices (desktops, 992px and up) */
-@media screen and (max-width:992px) {  
+aside {
+    visibility: unset;
+}
 
-/* Large devices (large desktops, 1200px and up) */
-@media screen and (max-width:1200px) {  
+.p-head {
+    text-align: center;
+}
+.profile-pic {
+    float: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p {
+    margin:0;
+}
+
+
+
+
+
+
+}
+
+
