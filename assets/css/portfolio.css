@@ -1,0 +1,57 @@
+
+
+
+.hr-portfolio {
+    border: 5px;
+    border-top: 3px solid black;
+}
+.port-pic {
+    height: 400px;
+    width: 400px;
+    border-radius: 2px;
+}
+.img {
+    margin: 0px 20px 0 20px;
+    position: relative;
+
+}
+.pic-box {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto; 
+    height: 900px;   
+}   
+
+p {
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+    transform: translate(-50%,-0);
+    background-color: rgb(243, 243, 243, 0.6);
+    width: 100%;
+
+    text-align: center;
+    padding: 5px 0 5px 0;
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and (max-width:992px) {
+    .port-pic {
+        height: 340px;
+        width: 340px;
+    }
+
+    /* Small devices (tablets, 768px and up) */
+@media screen and (max-width:768px) { 
+    .port-pic {
+        height: 260px;
+        width: 260px;
+    }
+}
+
+/* Small devices (tablets, 640px and up) */
+@media screen and (max-width:640px) {  
+    .port-pic {
+        width: 100%;
+        height: auto;
+    }

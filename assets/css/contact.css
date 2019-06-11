@@ -1,0 +1,48 @@
+form {
+    background-color: #B7B9B8;
+    text-align: left;
+    padding: 45px 25px 20px 25px;
+}
+input {
+    width: 95%;
+    height: 30px;
+    padding: 0 10px 0 10px;
+}
+.box{
+    margin: 10px 0 10px 0;
+}
+.message {
+    margin: 10px 0 10px 0;
+    height:100px;
+    
+}
+.form {
+    padding: 20px 0 0 0;
+}
+
+.hr-contact {
+    border: 5px;
+    border-top: 3px solid black;
+}
+
+/* Small devices (tablets, 640px and up) */
+@media screen and (max-width:640px) {  
+    form {
+        background-color: #B7B9B8;
+        text-align: center;
+        padding: 45px 25px 20px 25px;
+    }
+        .p_head {
+            text-align: center;
+    }
+    /* body {
+        background-clip: url(assets/images/background-tall.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    } */
+    
+}
+
+
+
+
