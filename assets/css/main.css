@@ -1,17 +1,17 @@
-/* * {
-    box-sizing: border-box;
-} */
-
 body {
     font-family: 'Cantarell', sans-serif;
     padding: 0;
     margin: 0;
+    font-weight: bold
 }
 header {
     background-color: rgb(23, 123, 155, 0.8);
     position: relative;
     width: 100%;
     height: 60px;
+    border-bottom: 10px;
+    border-color: rgb(16, 33, 40, 0.8);
+    border-style: solid;
 
 }
 .head-name {
@@ -19,7 +19,11 @@ header {
     position: absolute;
     font-size: 40px;
     left:200px;
-    top:20px;
+    top:10px;
+    border-radius: 3px;
+    padding: 5px 15px 5px 15px;
+    color: white;
+
 }
 nav {
     display: inline-flex;
@@ -30,6 +34,8 @@ nav {
     width: fit-content;
     text-align: center;
     padding: 10px;
+    border-radius: 3px
+
 
 }
         .lineup {
@@ -45,17 +51,18 @@ nav {
         a {
             display: inline;
         }
+
+
 aside {
-    display: inline-flex;
-    flex-direction: column;
     background-color: rgb(92, 111, 118, 0.8);
-    width: fit-content;
+    width: 100%;    
     text-align: center;
     padding: 10px;
     visibility: hidden;
-    margin-bottom:75px;
+    margin-bottom:-10px;
     width: 100%
 }
+
 
 .button:hover {
     background-color: #ddd;
@@ -67,23 +74,29 @@ aside {
   }
 
 
-
 .p {
     box-sizing: content-box;
-    background-color: rgb(92, 111, 118, 0.8);
-    margin: 0 200px 0 200px;
-    padding: 40px 20px 40px 20px;
+    background-color: rgba(116, 137, 145, 0.8);
+    margin: 0 150px 0 150px;
+    padding: 20px 20px 60px 20px;
     line-height: 2;
+    border-radius: 3px;
+    border-width: 5px;
+    border-color: rgb(16, 33, 40, 0.8);
+    border-style: solid;
+
 }
 .p-head {
     font-size: 30px
 }
-
+hr {
+    border-color:black;
+}
 .profile-pic {
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
     float: left; 
-    margin-right:10px;
+    margin-right:20px;
 }
 
 
@@ -116,6 +129,10 @@ footer {
 nav {   
     right: 0
 }
+.p {
+    margin-left: 50px;
+    margin-right: 50px;
+}
 
 
 /* Small devices (tablets, 768px and up) */
@@ -127,41 +144,55 @@ nav {
         height: 60px;
         left: auto;
         right: auto;
-}
-.head-name{
-    text-align: center;
-    position: unset;
-    /* right: 50%;
-    transform: translate(-50%, 0) */
-}
-nav {   
-    flex-direction: column;
-    visibility: hidden;
-}
+    }
 
-aside {
-    visibility: unset;
-}
-
-.p-head {
-    text-align: center;
-}
-.profile-pic {
-    float: none;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.p {
-    margin:0;
-}
+    .p {
+        padding: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    h3 {
+        display: inline-flex;
+    }
+    }
 
 
 
 
-
-
-}
-
-
+/* Small devices (tablets, 640px and up) */
+@media screen and (max-width:640px) {  
+    header {
+        background-color: rgb(23, 123, 155, );
+        position: relative;
+        width: 100%;
+        height: 60px;
+        left: auto;
+        right: auto;
+        }
+    .head-name{
+        text-align: center;
+        position: unset;
+        width:100%;
+        padding: 10Px 0 12px 0;
+    }
+    nav {   
+        visibility: hidden;
+    }
+    aside {
+        visibility: unset;
+    }
+    .p-head {
+        text-align: center;
+    }
+    .profile-pic {
+        float: none;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .p {
+        padding: 20px;
+        margin: 20px
+    }
+   
+    }           

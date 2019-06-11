@@ -52,24 +52,24 @@ table {
 
 
 
-a.nav-link:link
+a:link
 {
    color: white;
    text-decoration: none;
 }
-a.nav-link:visited
+a:visited
 {
    color: white;
    text-decoration: none;
 }
-a.nav-link:hover
+a:hover
 {
    color: white;
    text-decoration: none;
    background-color: #838080;
-   padding: 1px
+   /* padding: 1px */
 }
-a.nav-link:active
+a:active
 {
    color: white;
    text-decoration: none;
