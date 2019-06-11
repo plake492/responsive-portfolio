@@ -60,7 +60,7 @@ aside {
     padding: 10px;
     visibility: hidden;
     margin-bottom:-10px;
-    width: 100%
+    width: 102%
 }
 
 
@@ -163,7 +163,7 @@ nav {
     header {
         background-color: rgb(23, 123, 155, 0.0);
         position: relative;
-        width: 100%;
+        width: 94%;
         height: 60px;
         left: auto;
         right: auto;
@@ -186,6 +186,7 @@ nav {
     }
     aside {
         visibility: unset;
+        width: 96%
     }
     .p-head {
         text-align: center;
