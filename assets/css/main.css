@@ -7,10 +7,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-}
-body {
     min-height: 100vh;
 }
+
 
 header {
     background-color: rgb(23, 123, 155, 0.8);
@@ -22,6 +21,30 @@ header {
     border-style: solid;
 
 }
+
+header {
+
+background-color: rgb(23, 123, 155, 0.8);
+-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+-webkit-animation-duration: 130; /* Safari 4.0 - 8.0 */
+animation-name: example;
+animation-duration: 30s;
+}
+
+@-webkit-keyframes example {
+0%   {background-color: rgb(136, 136, 136);}
+25%  {background-color: rgb(132, 171, 207);}
+50%  {background-color: rgb(52, 126, 160);}
+100% {background-color: rgb(62, 166, 226);}
+}
+
+@keyframes example {
+    0%   {background-color: rgb(136, 136, 136);}
+    25%  {background-color: rgb(132, 171, 207);}
+    50%  {background-color: rgb(52, 126, 160);}
+    100% {background-color: rgb(62, 166, 226);}
+}
+
 .head-name {
     background-color: rgb(92, 111, 118, 0.8);
     position: absolute;
@@ -84,8 +107,8 @@ a {
 
 .p {
     box-sizing: content-box;
-    background-color: rgba(116, 137, 145, 0.8);
-    margin: 0 100px 0px 100px;
+    background-color: rgba(116, 137, 145, 0.9);
+    margin: -50px 100px 0px 100px;
     padding: 45px 20px 85px 20px;
     line-height: 2;
     border-radius: 3px;
@@ -98,6 +121,7 @@ a {
 }
 hr {
     border-color:black;
+    margin-bottom: 20px;
 }
 .profile-pic {
     height: 300px;
@@ -156,6 +180,7 @@ nav {
         padding: 20px;
         margin-left: 10px;
         margin-right: 10px;
+        margin-top:20px
     }
     h3 {
         display: inline-flex;
