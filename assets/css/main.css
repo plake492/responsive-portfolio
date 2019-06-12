@@ -1,12 +1,17 @@
 body {
     font-family: 'Cantarell', sans-serif;
-    padding: 0;
-    margin: 0;
+    /* padding: 0; */
+    /* margin: 0; */
     font-weight: bold;
-    background:url(assets/images/background.jpeg);
+    background:url(../images/background.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
+body {
+    min-height: 100vh;
+}
+
 header {
     background-color: rgb(23, 123, 155, 0.8);
     position: relative;
@@ -63,7 +68,7 @@ aside {
     padding: 10px 0 10px 0;
     visibility: hidden;
     margin-bottom:-10px;
-    width: 102%
+    width: 100%
 }
 
 
@@ -72,15 +77,15 @@ aside {
     color: black;
   }
 
-  a {
-      padding: 10px 0 10px 0;
-  }
+a {
+    padding: 10px 0 10px 0;
+}
 
 
-  .p {
+.p {
     box-sizing: content-box;
     background-color: rgba(116, 137, 145, 0.8);
-    margin: 0 100px 0 100px;
+    margin: 0 100px 0px 100px;
     padding: 45px 20px 85px 20px;
     line-height: 2;
     border-radius: 3px;
@@ -101,24 +106,23 @@ hr {
     margin-right:20px;
 }
 
-
-
-
-
-
 footer {
     background-color: rgb(16, 33, 40, 0.8);
-    position: fixed;
-    bottom: 0;
+    position: absolute;
+    bottom:0;
     width: 100%;    
     text-align: center;
     display: inline;
     padding:5px 0 5px 0;
+    
 }
 
 
 /* Medium devices (desktops, 992px and up) */
 @media screen and (max-width:992px) {  
+    body {
+        padding-bottom: 60px
+    }
     header {
         background-color: rgb(23, 123, 155, );
         position: relative;

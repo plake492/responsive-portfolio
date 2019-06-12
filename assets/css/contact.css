@@ -25,8 +25,24 @@ input {
     border-top: 3px solid black;
 }
 
+/* Medium devices (desktops, 992px and up) */
+@media screen and (max-width:992px) {  
+    body {
+        padding-bottom: 0px
+    }
+
+    /* Small devices (tablets, 768px and up) */
+@media screen and (max-width:768px) {  
+    body {
+        padding-bottom: 0px
+    }
+}
+
 /* Small devices (tablets, 640px and up) */
 @media screen and (max-width:640px) {  
+    body {
+        padding-bottom: 0   px
+    }
     form {
         background-color: #B7B9B8;
         text-align: center;
