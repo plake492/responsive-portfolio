@@ -193,7 +193,7 @@ nav {
 /* Small devices (tablets, 640px and up) */
 @media screen and (max-width:640px) {  
     header {
-        background-color: rgb(23, 123, 155, 0.0);
+        /* background-color: rgb(23, 123, 155, 0.0); */
         position: relative;
         width: 100%;
         height: 60px;
@@ -204,7 +204,7 @@ nav {
         border-style: solid;
         }
     .head-name{
-        background-color: rgb(23, 123, 155, 0.6);
+        background-color: rgb(23, 123, 155, 0.0);
         text-align: center;
         position: unset;
         padding-bottom:18px;
