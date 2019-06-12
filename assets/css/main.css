@@ -2,7 +2,10 @@ body {
     font-family: 'Cantarell', sans-serif;
     padding: 0;
     margin: 0;
-    font-weight: bold
+    font-weight: bold;
+    background:url(assets/images/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 header {
     background-color: rgb(23, 123, 155, 0.8);
@@ -57,7 +60,7 @@ aside {
     background-color: rgb(92, 111, 118, 0.8);
     width: 100%;    
     text-align: center;
-    padding: 10px;
+    padding: 10px 0 10px 0;
     visibility: hidden;
     margin-bottom:-10px;
     width: 102%
@@ -163,11 +166,11 @@ nav {
     header {
         background-color: rgb(23, 123, 155, 0.0);
         position: relative;
-        width: 94%;
+        width: 100%;
         height: 60px;
         left: auto;
         right: auto;
-        border-bottom: 10px;
+        border-bottom: 10px 0 10px 0;
         border-color: rgb(16, 33, 40, 0.0);
         border-style: solid;
         }
@@ -175,7 +178,6 @@ nav {
         background-color: rgb(23, 123, 155, 0.6);
         text-align: center;
         position: unset;
-        width:100%;
         padding-bottom:18px;
         border-bottom: 10px;
         border-color: rgb(16, 33, 40, 0.8);
@@ -186,7 +188,7 @@ nav {
     }
     aside {
         visibility: unset;
-        width: 96%
+        width: 100%
     }
     .p-head {
         text-align: center;
