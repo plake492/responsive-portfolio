@@ -22,11 +22,15 @@ header {
 
 }
 
+/*
+======================
+ANIMATION
+=====================
+*/
 header {
-
 background-color: rgb(23, 123, 155, 0.8);
--webkit-animation-name: example; /* Safari 4.0 - 8.0 */
--webkit-animation-duration: 130; /* Safari 4.0 - 8.0 */
+-webkit-animation-name: example; 
+-webkit-animation-duration: 130; 
 animation-name: example;
 animation-duration: 30s;
 }
@@ -45,6 +49,11 @@ animation-duration: 30s;
     100% {background-color: rgb(62, 166, 226);}
 }
 
+/*
+======================
+ANIMATION
+=====================
+*/
 .head-name {
     background-color: rgb(92, 111, 118, 0.8);
     position: absolute;
